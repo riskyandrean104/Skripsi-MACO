@@ -5,7 +5,7 @@ import googlemaps
 import copy
 from numpy import inf
 
-API_KEY = 'AIzaSyDIC0OWokoAFBc_EAiojs9A1RmeFNUjBK4'#enter Google Maps API key
+API_KEY = ''#enter Google Maps API key
 gmaps = googlemaps.Client(key=API_KEY)
 
 def distancematrix(data):
